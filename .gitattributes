@@ -1,2 +1,6 @@
+*.data.gz binary
+*.wasm.gz binary
+*.js.gz binary
+*.mem.gz binary
 Build/WebTest.data filter=lfs diff=lfs merge=lfs -text
 StreamingAssets/2024.mp4 filter=lfs diff=lfs merge=lfs -text
